@@ -5,7 +5,7 @@ add_action( 'wp_ajax_nopriv_RegisterSubscriber', 'RegisterSubscriber' );
 add_action( 'wp_ajax_RegisterSubscriber', 'RegisterSubscriber' );
 
 function RegisterSubscriber(){
-	wp_mail("daniel.mathiesen@gmail.com", "Viten+praksis", $_POST["email"]);
+	wp_mail("vp@hioa.no", "Viten+praksis", $_POST["email"]);
 	die("1");
 }
 
