@@ -15,7 +15,22 @@
  */
 
 
-if(1){
+if ( stristr( $_SERVER['SERVER_NAME'], 'local.hioa' ) )
+{
+	// ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'dev_hioa_magazine_splash');
+
+	/** MySQL database username */
+	define('DB_USER', 'root');
+
+	/** MySQL database password */
+	define('DB_PASSWORD', 'root');
+
+	/** MySQL hostname */
+	define('DB_HOST', 'localhost');
+}
+else if(1){
 	// ** MySQL settings - You can get this info from your web host ** //
 	/** The name of the database for WordPress */
 	define('DB_NAME', 'gestuzil_lily');
@@ -40,21 +55,6 @@ else if ( stristr( $_SERVER['SERVER_NAME'], 'gesture.no' ) )
 
 	/** MySQL database password */
 	define('DB_PASSWORD', '{=GtFhh^SJ1s');
-
-	/** MySQL hostname */
-	define('DB_HOST', 'localhost');
-}
-else
-{
-	// ** MySQL settings - You can get this info from your web host ** //
-	/** The name of the database for WordPress */
-	define('DB_NAME', 'dev_hioa_magazine_splash');
-
-	/** MySQL database username */
-	define('DB_USER', 'root');
-
-	/** MySQL database password */
-	define('DB_PASSWORD', 'root');
 
 	/** MySQL hostname */
 	define('DB_HOST', 'localhost');
