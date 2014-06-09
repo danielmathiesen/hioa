@@ -176,6 +176,7 @@
 		  	$('#email').addClass('input-error');
 		  	$('.subscribe-caption').html('Oops! Har du skrevet riktig e-post adresse?');
 		  	$('.subscribe-caption').addClass('error-message');
+			$('.placeholdersjs').val('Skriv inn din epost');
 		  	return;
 		  }
 			
