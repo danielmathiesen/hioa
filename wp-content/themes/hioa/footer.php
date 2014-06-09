@@ -221,7 +221,7 @@
 				  $('#email').val('');
 				  $('.placeholdersjs').val('Skriv inn din epost');
 
-				  },2000);
+				  },3000);
 
 				  /*
 					$('#overlay-content-container').fadeOut(200, function(){
