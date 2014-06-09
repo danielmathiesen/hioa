@@ -352,6 +352,53 @@ h1{
 	width:180px;
 }
 
+.video-link{
+	cursor: pointer; 
+	cursor: hand;
+	background-color:#000000;
+    line-height:0;
+	position:relative;
+
+	img{
+	    transition: opacity .15s ease-in-out;
+	    -moz-transition: opacity .15s ease-in-out;
+	    -webkit-transition: opacity .15s ease-in-out;
+	}
+
+	&:hover{
+    	img{
+    		opacity: 0.6;
+    	}
+
+    	.play-icon{
+    		opacity: 1;
+    	}
+	}
+
+	.play-icon{
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  z-index: 1;
+	  background: url(./img/icons/play.png) no-repeat center center;
+	  background-size:62px 62px;
+		    
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+
+       opacity: 0.75;
+	}
+
+	.large{
+	  background: url(./img/icons/play-large.png) no-repeat center center;
+	  background-size:124px 124px;
+	}
+}
+
 .video-grid{
 	padding-top:75px;
 	padding-bottom:15px;
@@ -376,28 +423,8 @@ h1{
 	.video-preview-container{
 		line-height:0;
 		width:100%;
-		position:relative;
-		cursor: pointer; 
-		cursor: hand;
-		background-color:#000000;
 		overflow:hidden;
 		margin-bottom:15px;
-
-		img{
-		    transition: opacity .15s ease-in-out;
-		    -moz-transition: opacity .15s ease-in-out;
-		    -webkit-transition: opacity .15s ease-in-out;
-		}
-	}
-
-	.video-preview-container:hover{
-    	img{
-    		opacity: 0.6;
-    	}
-
-    	.play-icon{
-    		opacity: 1;
-    	}
 	}
 
 	.video-grid-row{
@@ -423,25 +450,6 @@ h1{
 
 	.video-grid-item-right{
 		padding:0 0 0 10px;
-	}
-
-	.play-icon{
-	  display: block;
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  bottom: 0;
-	  right: 0;
-	  z-index: 1;
-	  background: url(./img/icons/play.png) no-repeat center center;
-	  background-size:62px 62px;
-		    
-    transition: opacity .15s ease-in-out;
-    -moz-transition: opacity .15s ease-in-out;
-    -webkit-transition: opacity .15s ease-in-out;
-
-       opacity: 0.75;
-
 	}
 }
 
@@ -534,6 +542,13 @@ h1{
 			padding:0;
 		}
 	}
+
+	.video-link{
+		.play-icon, .large{
+		  background: url(./img/icons/play-medium.png) no-repeat center center;
+		  background-size:93px 93px;
+		}
+	}
 }
 
 @media only screen and (max-width : 640px){
@@ -590,6 +605,13 @@ h1{
 
 @media only screen and (max-width : 540px){
 	
+	.video-link{
+		.play-icon, .large{
+		  background: url(./img/icons/play.png) no-repeat center center;
+		  background-size:62px 62px;
+		}
+	}
+
 	.subscribe-container-inner{
 		.button{
 			font-size:0.75em; // 12px

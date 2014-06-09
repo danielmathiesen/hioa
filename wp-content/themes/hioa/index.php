@@ -26,9 +26,10 @@
         <div class="grey">
             <div class="inner-content feature-content">
                 <div class="white">
-                    <div class="feature-image-container">
+                    <div id="video-id-1" class="feature-image-container video-link">
                         <!-- <div class="sprite arrow"></div> -->
                         <img class="feature-image" src="<?php bloginfo('template_directory'); ?>/img/feature-image.jpg" alt="Videotittel" />
+                        <span class="play-icon large"></span>
                     </div>
                     <p class="feature-text">Forskere ved HiOA har samlet inn nesten 5000 spyttprøver fra norske og svenske testikkelkreftpasienter og fra deres mødre og fedre. Ved å analysere DNA fra disse prøvene jakter forskerne på genetiske årsaker til testikkelkreft.<br/><br/>Det er HiOAs forskergruppe Reproduktiv helse hos menn i samarbeid med Kreftregisteret og Karolinska Institutet i Sverige som står bak forskningen.<br/><br/><a id="feature-video-link" href="#"><strong>Se video her</strong><span class="sprite play-small"></span><span class="sprite play-xsmall"></span></a></p>
                 </div>
@@ -38,7 +39,7 @@
             <div class="inner-content video-grid">
                 <div class="video-grid-row">
                     <div class="video-grid-item video-grid-item-left">
-                        <div id="video-id-2" class="video-preview-container">
+                        <div id="video-id-2" class="video-preview-container video-link">
                             <img src="<?php bloginfo('template_directory'); ?>/img/video-preview1.jpg" alt="Videotittel">
                             <span class="play-icon"></span>
                         </div>
@@ -46,7 +47,7 @@
                         <p>Stipendiat Anne Kari Tolo Heggestad ved Institutt for sykepleie (HiOA) forsker på demens og verdighet. Hun har spesielt sett på demente på institusjon.</p>
                     </div>
                     <div class="video-grid-item video-grid-item-right">
-                        <div id="video-id-3" class="video-preview-container">
+                        <div id="video-id-3" class="video-preview-container video-link">
                             <img src="<?php bloginfo('template_directory'); ?>/img/video-preview2.jpg" alt="Videotittel">
                             <span class="play-icon"></span>
                         </div>
@@ -56,7 +57,7 @@
                 </div>
                 <div class="video-grid-row">
                     <div class="video-grid-item video-grid-item-left">
-                        <div id="video-id-4" class="video-preview-container">
+                        <div id="video-id-4" class="video-preview-container video-link">
                             <img src="<?php bloginfo('template_directory'); ?>/img/video-preview3.jpg" alt="Videotittel">
                             <span class="play-icon"></span>
                         </div>
@@ -64,7 +65,7 @@
                         <p>Stipendiat Anne Kari Tolo Heggestad ved Institutt for sykepleie (HiOA) forsker på demens og verdighet. Hun har spesielt sett på demente på institusjon.</p>
                     </div>
                     <div class="video-grid-item video-grid-item-right">
-                        <div id="video-id-5" class="video-preview-container">
+                        <div id="video-id-5" class="video-preview-container video-link">
                             <img src="<?php bloginfo('template_directory'); ?>/img/video-preview4.jpg" alt="Videotittel">
                             <span class="play-icon"></span>
                         </div>

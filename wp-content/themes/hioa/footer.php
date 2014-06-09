@@ -88,7 +88,7 @@
             	showVideo(1);
 			})
 
-            $('.video-preview-container').click(function(){
+            $('.video-link').click(function(){
             	videoID = $(this).attr('id').replace('video-id-', '');
 
             	showVideo(videoID);

@@ -647,6 +647,38 @@ h1 {
   display: block;
   width: 180px; }
 
+.video-link {
+  cursor: pointer;
+  cursor: hand;
+  background-color: #000000;
+  line-height: 0;
+  position: relative; }
+  .video-link img {
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out; }
+  .video-link:hover img {
+    opacity: 0.6; }
+  .video-link:hover .play-icon {
+    opacity: 1; }
+  .video-link .play-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: url(./img/icons/play.png) no-repeat center center;
+    background-size: 62px 62px;
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+    opacity: 0.75; }
+  .video-link .large {
+    background: url(./img/icons/play-large.png) no-repeat center center;
+    background-size: 124px 124px; }
+
 .video-grid {
   padding-top: 75px;
   padding-bottom: 15px; }
@@ -667,20 +699,8 @@ h1 {
   .video-grid .video-preview-container {
     line-height: 0;
     width: 100%;
-    position: relative;
-    cursor: pointer;
-    cursor: hand;
-    background-color: #000000;
     overflow: hidden;
     margin-bottom: 15px; }
-    .video-grid .video-preview-container img {
-      transition: opacity .15s ease-in-out;
-      -moz-transition: opacity .15s ease-in-out;
-      -webkit-transition: opacity .15s ease-in-out; }
-  .video-grid .video-preview-container:hover img {
-    opacity: 0.6; }
-  .video-grid .video-preview-container:hover .play-icon {
-    opacity: 1; }
   .video-grid .video-grid-row {
     width: 100%;
     margin-bottom: 40px;
@@ -696,20 +716,6 @@ h1 {
     padding: 0 10px 0 0; }
   .video-grid .video-grid-item-right {
     padding: 0 0 0 10px; }
-  .video-grid .play-icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-    background: url(./img/icons/play.png) no-repeat center center;
-    background-size: 62px 62px;
-    transition: opacity .15s ease-in-out;
-    -moz-transition: opacity .15s ease-in-out;
-    -webkit-transition: opacity .15s ease-in-out;
-    opacity: 0.75; }
 
 .video-container {
   position: relative;
@@ -770,7 +776,11 @@ h1 {
   .video-grid .video-grid-item {
     margin-bottom: 25px; }
   .video-grid .video-grid-item-left, .video-grid .video-grid-item-right {
-    padding: 0; } }
+    padding: 0; }
+
+  .video-link .play-icon, .video-link .large {
+    background: url(./img/icons/play-medium.png) no-repeat center center;
+    background-size: 93px 93px; } }
 @media only screen and (max-width: 640px) {
   .social-container-table .social-container-cell {
     text-align: center; }
@@ -799,6 +809,10 @@ h1 {
   .hioa-logo, .site-logo {
     padding: 25px 0; } }
 @media only screen and (max-width: 540px) {
+  .video-link .play-icon, .video-link .large {
+    background: url(./img/icons/play.png) no-repeat center center;
+    background-size: 62px 62px; }
+
   .subscribe-container-inner .button {
     font-size: 0.75em;
     padding-top: 13px;

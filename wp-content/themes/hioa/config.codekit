@@ -389,6 +389,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icons\/play-large.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9951,
+		"inputAbbreviatedPath": "\/img\/icons\/play-large.png",
+		"outputAbbreviatedPath": "\/img\/icons\/play-large.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icons\/play-medium.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7420,
+		"inputAbbreviatedPath": "\/img\/icons\/play-medium.png",
+		"outputAbbreviatedPath": "\/img\/icons\/play-medium.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons\/play-small.png": {
 		"fileType": 32768,
 		"ignore": 0,
