@@ -214,7 +214,7 @@
 			  url: '/wp-admin/admin-ajax.php',
 			  data: {
 			  action: 'RegisterSubscriber',
-			  email: $('#email');
+			  email: $('#email').val();
 			  },
 
 			  success: function(data, textStatus, XMLHttpRequest){
