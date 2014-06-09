@@ -1,0 +1,46 @@
+{
+	"version":"3.1",
+	"status":"release",
+	"name":"Redactor",
+	"slug":"redactor",
+	"wordpress":
+	{
+		"uri":"http://redactor.dcoda.co.uk/",
+		"wpslug":"redactor",
+		"stable_tag":"3.2.46",
+		"donate_link":"http://redactor.dcoda.co.uk/donate/",
+		"short_desc":"Versatile Censor Tool",
+		"tags":
+		[
+			"post",
+			"redact",
+			"secret",
+			"film ending",
+			"sports",
+			"results",
+			"hidden",
+			"spoiler",
+			"post",
+			"secret",
+			"reveal",
+			"hide",
+			"family",
+			"censorship",
+			"automatic",
+			"quote",
+			"censor"
+		]
+	},
+	"help_meta":
+	{
+		"gettingstarted":
+		{
+			"url":"http://redactor.dcoda.co.uk/help/"
+		},
+		"settings":
+		{
+			"url":"http://redactor.dcoda.co.uk/help/settings"
+		}
+	}
+
+}

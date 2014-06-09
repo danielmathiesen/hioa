@@ -7,8 +7,8 @@
         <meta charset="utf-8">
         <!-- Replaced with header -->
         <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
-        <title>viten + praksis</title>
-        <meta name="description" content="">
+        <title>Viten + praksis</title>
+        <meta name="description" content="Viten + praksis er et forskningsmagasin fra Høgskolen i Oslo og Akershus">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->

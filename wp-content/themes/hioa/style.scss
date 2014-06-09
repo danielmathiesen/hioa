@@ -218,7 +218,7 @@ p{
 .play-xsmall{
 	margin-left:6px;
 	position:absolute;
-	margin-top:4px;
+	margin-top:6px;
 	display:none;
 }
 
@@ -343,13 +343,13 @@ p{
 
 h1{
 	margin-top:70px;
-	margin-bottom:0px;
+	margin-bottom:7px;
 	padding-bottom:0px;
 	text-transform:uppercase;
 	font-size:1.6875em;
 	font-weight: 700; 
 	font-style: normal;
-	line-height:150%;
+	line-height:130%;
 }
 
 .grey{
@@ -371,9 +371,13 @@ h1{
 }
 
 .feature-text{
-	padding:65px 115px;
+	padding:45px 115px 45px 115px;
 	margin:0;
 	color:#3e3e3e;
+
+	p{
+		margin:1.25em 0;
+	}
 }
 
 .feature-content{
@@ -446,7 +450,7 @@ h1{
 
 		h2, p{
 			padding:0 12px;
-			color:#010001;
+			color:#2b2b2b;
 		}
 	}
 
@@ -468,8 +472,9 @@ h1{
 		overflow:hidden;
 
 		p{
-			margin-top:7px;
+			margin-top:0px;
 			line-height:140%;
+			margin:6px 0 10px 0;
 		}
 
 		h2{
@@ -705,7 +710,8 @@ h1{
 			}
 
 			p{
-				margin-top:3px;
+				margin-top:8px;
+				line-height:150%;
 			}
 		}
 	}

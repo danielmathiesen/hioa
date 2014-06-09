@@ -1,8 +1,11 @@
+<?php $videos = getVideos(); ?>
+
 		<div class="footer">
 			<div class="footer-inner">
 				<p> Ønsker du å komme i kontakt? Send en mail til: <a href="vp@hioa.no">vp@hioa.no</a></p>
 			</div>
 		</div>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
@@ -86,7 +89,7 @@
 
 			$('#feature-video-link').click(function(evt){
             	evt.preventDefault();
-            	showVideo(1);
+            	showVideo(0);
 			})
 
             $('.video-link').click(function(){
@@ -232,7 +235,7 @@
 
 		})
 
-		var videos = new Array('//www.youtube.com/embed/FXarRyX20p0', '//www.youtube.com/embed/F8C-bx6Ske4', '//www.youtube.com/embed/FXarRyX20p0', '//www.youtube.com/embed/F8C-bx6Ske4');
+		var videos = new Array('<?php echo $videos[0]['video']; ?>', '<?php echo $videos[1]['video']; ?>', '<?php echo $videos[2]['video']; ?>', '<?php echo $videos[3]['video']; ?>', '<?php echo $videos[4]['video']; ?>');
 
         </script>
     </div></body></html>
