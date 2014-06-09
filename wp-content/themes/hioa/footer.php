@@ -87,7 +87,7 @@
             	resizeOverlay();
 			});
 
-			$('#feature-video-link').click(function(evt){
+			$('.feature-video-link').click(function(evt){
             	evt.preventDefault();
             	showVideo(0);
 			})
