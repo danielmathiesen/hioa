@@ -398,6 +398,8 @@ html, body, input, button {
   font-style: normal; }
 
 textarea,
+input,
+input[type="email"],
 input[type="text"],
 input[type="button"],
 input[type="submit"] {
