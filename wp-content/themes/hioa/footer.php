@@ -10,6 +10,7 @@
         <script src="js/main.js"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/magnific-popup.js"></script> 
   		<script src="<?php bloginfo('template_directory'); ?>/js/modernizr.custom.js"></script>
+  		<script src="<?php bloginfo('template_directory'); ?>/js/spin.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -159,7 +160,34 @@
 
 		$('#subscribe-button').click(function(){
 
-			alert("SEND");
+			// alert("SEND");
+
+
+
+		var opts = {
+		  lines: 13, // The number of lines to draw
+		  length: 6, // The length of each line
+		  width: 2, // The line thickness
+		  radius: 6, // The radius of the inner circle
+		  corners: 1, // Corner roundness (0..1)
+		  rotate: 0, // The rotation offset
+		  direction: 1, // 1: clockwise, -1: counterclockwise
+		  color: '#fff', // #rgb or #rrggbb or array of colors
+		  speed: 1, // Rounds per second
+		  trail: 60, // Afterglow percentage
+		  shadow: false, // Whether to render a shadow
+		  hwaccel: false, // Whether to use hardware acceleration
+		  className: 'spinner', // The CSS class to assign to the spinner
+		  zIndex: 2e9, // The z-index (defaults to 2000000000)
+		  top: '50%', // Top position relative to parent
+		  left: '50%' // Left position relative to parent
+		};
+
+		$('#subscribe-button').addClass('no-text');
+		$('#subscribe-button').addClass('ajax-spinner');
+
+		var target = document.getElementById('subscribe-button');
+		var spinner = new Spinner(opts).spin(target);
 
 			jQuery.ajax({
 			  type: 'POST',
@@ -173,8 +201,12 @@
 			  	// alert("SUCCESS");
 				  // jQuery("#test-div1").html('');
 				  // jQuery("#test-div1").append(data);
-				  alert(data);
-				  					
+				  // alert(data);
+				  $('.subscribe-success-message').fadeIn(250);
+				  
+				  $('#subscribe-button').removeClass('ajax-spinner');
+				  spinner.stop();
+
 				  /*
 					$('#overlay-content-container').fadeOut(200, function(){
 					  	spinner.stop();
