@@ -853,7 +853,9 @@ h1 {
     padding-top: 13px;
     padding-bottom: 13px; }
   .subscribe-container-inner .subscribe-success-message, .subscribe-container-inner .subscribe-success-message-ie9 {
-    padding: 9px 0 8px 20px; }
+    padding: 10px 0 10px 20px; }
+  .subscribe-container-inner .subscribe-success-message, .subscribe-container-inner .subscribe-success-message-ie9 {
+    font-size: 0.75em; }
 
   .social-container-table .instagram-small, .social-container-table .twitter-small {
     display: inline-block; }
