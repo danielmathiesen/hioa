@@ -197,7 +197,7 @@
 				  $('#subscribe-button').removeClass('ajax-spinner');
 				  spinner.stop();
 
-				  if( $("html").hasClass("lt-ie9") ){
+				  if( $("html").hasClass("lt-ie10") ){
                   	$('.subscribe-input-cell').hide();
                   	$('.subscribe-button-cell').hide();
 				  }
