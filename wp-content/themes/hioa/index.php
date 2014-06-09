@@ -1,10 +1,15 @@
 <?php get_header(); ?>
 <?php $videos = getVideos(); ?>
 
+<?php $page = get_page(1); ?>
+
+
         <div class="grey-light">
             <div class="inner-content signup-container">
-                <h1>HiOA lanserer nettmagasin</h1>
-                <p class="excerpt">Her kommer HiOAs nye nettmagasin <strong><i>viten + praksis</i></strong>. 19. september kan du oppleve HiOAs forskning i tekst, bilder, videoer og sosiale medier – samlet i et digitalt univers. Mens du venter, ta en kikk på noen av våre forskningsfilmer.</p>
+                <div class="title-container">
+                    <h1><?php echo $page->post_title ?></h1>
+                    <?php echo $page->post_content ?>
+                </div>
                 <div class="subscribe-container">
                     <div class="subscribe-container-inner">
                         <form id="email-form">
