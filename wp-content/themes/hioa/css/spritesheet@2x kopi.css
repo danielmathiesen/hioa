@@ -1,7 +1,7 @@
 /* ----------------------------------------------------
    created with http://www.codeandweb.com/texturepacker 
    ----------------------------------------------------
-   $TexturePacker:SmartUpdate:1e26cc2cb17f5ec26dc5b4a3dc2195ec:c15b0e6d3d33b7c5b41ed1316c2a4dc9:4896efa61e4fc168ad83f1ffbe8b0ba7$
+   $TexturePacker:SmartUpdate:100538b9e9dc617a3789e9ff486bca81:ab9357c868bb63e22fae979d7debcf0e:4896efa61e4fc168ad83f1ffbe8b0ba7$
    ----------------------------------------------------
 
    usage: <span class="{-spritename-} sprite"></span>
@@ -10,12 +10,14 @@
 
 */
 
-.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat; background-size:100px; background-image:url(../img/spritesheet@2x.png);}
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat; background-size:125px; background-image:url(../img/spritesheet@2x.png);}
 
 .arrow {width:38px; height:17px; background-position: -0px -62px}
 .close {width:35px; height:35px; background-position: -38px -62px}
-.instagram {width:24px; height:25px; background-position: -62px -0px}
-.instagram-small {width:16px; height:17px; background-position: -19px -79px}
+.instagram {width:24px; height:25px; background-position: -0px -79px}
+.instagram-small {width:16px; height:17px; background-position: -85px -23px}
 .play {width:62px; height:62px; background-position: -0px -0px}
-.twitter {width:28px; height:23px; background-position: -62px -25px}
-.twitter-small {width:19px; height:16px; background-position: -0px -79px}
+.play-small {width:23px; height:23px; background-position: -62px -23px}
+.play-xsmall {width:17px; height:17px; background-position: -73px -62px}
+.twitter {width:28px; height:23px; background-position: -62px -0px}
+.twitter-small {width:19px; height:16px; background-position: -62px -46px}

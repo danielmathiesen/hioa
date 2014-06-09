@@ -662,12 +662,18 @@ h1 {
 .feature-image {
   width: 100%; }
 
-.arrow {
+.arrow, .arrow-small {
   position: absolute;
   bottom: 0;
   z-index: 100;
-  margin-left: -19px;
   left: 50%; }
+
+.arrow {
+  margin-left: -19px; }
+
+.arrow-small {
+  margin-left: -14px;
+  display: none; }
 
 .feature-text {
   padding: 45px 115px 45px 115px;
@@ -890,6 +896,12 @@ input:focus {
   .video-grid .video-grid-row p {
     margin-top: 8px;
     line-height: 150%; }
+
+  .arrow-small {
+    display: inline-block; }
+
+  .arrow {
+    display: none; }
 
   .signup-container {
     padding-bottom: 30px; }

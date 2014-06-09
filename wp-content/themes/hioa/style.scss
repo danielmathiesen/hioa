@@ -368,12 +368,20 @@ h1{
 	width:100%;
 }
 
-.arrow{
+.arrow, .arrow-small{
 	position:absolute;
 	bottom:0;
 	z-index:100;
-	margin-left:-19px;
 	left:50%;
+}
+
+.arrow{
+	margin-left:-19px;
+}
+
+.arrow-small{
+	margin-left:-14px;
+	display:none;
 }
 
 .feature-text{
@@ -729,6 +737,14 @@ input:focus {
 				line-height:150%;
 			}
 		}
+	}
+
+	.arrow-small{
+		display:inline-block;
+	}
+
+	.arrow{
+		display:none;
 	}
 
 	.signup-container{
