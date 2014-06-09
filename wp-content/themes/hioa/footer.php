@@ -251,6 +251,9 @@
 				  $('#email').val('');
 				  $('.placeholdersjs').val('Skriv inn din epost');
 
+				  $('#email').focus();
+					$('#email').blur();
+
 				  },3000);
 
 				  /*
