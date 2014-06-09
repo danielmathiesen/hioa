@@ -47,7 +47,7 @@
                             <span class="play-icon"></span>
                         </div>
                         <h2><?php echo $videos[1]['title']; ?></h2>
-                        <p><?php echo $videos[1]['content']; ?></p>
+                        <?php echo $videos[1]['content']; ?>
                     </div>
                     <div class="video-grid-item video-grid-item-right">
                         <div id="video-id-2" class="video-preview-container video-link">
@@ -55,7 +55,7 @@
                             <span class="play-icon"></span>
                         </div>
                         <h2><?php echo $videos[2]['title']; ?></h2>
-                        <p><?php echo $videos[2]['content']; ?></p>
+                        <?php echo $videos[2]['content']; ?>
                     </div>
                 </div>
                 <div class="video-grid-row">
@@ -65,7 +65,7 @@
                             <span class="play-icon"></span>
                         </div>
                         <h2><?php echo $videos[3]['title']; ?></h2>
-                        <p><?php echo $videos[3]['content']; ?></p>
+                        <?php echo $videos[3]['content']; ?>
                     </div>
                     <div class="video-grid-item video-grid-item-right">
                         <div id="video-id-4" class="video-preview-container video-link">
@@ -73,7 +73,7 @@
                             <span class="play-icon"></span>
                         </div>
                         <h2><?php echo $videos[4]['title']; ?></h2>
-                        <p><?php echo $videos[4]['content']; ?></p>
+                        <?php echo $videos[4]['content']; ?>
                     </div>
                 </div>
             </div>
