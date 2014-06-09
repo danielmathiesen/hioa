@@ -1,0 +1,21 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:6a366c817f0e1f5881ef85c9ad293f0e:6f975c05fda568dd2a538675a920b864:4896efa61e4fc168ad83f1ffbe8b0ba7$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(../img/spritesheet.png);}
+
+.arrow {width:38px; height:17px; background-position: -0px -62px}
+.close {width:35px; height:35px; background-position: -38px -62px}
+.instagram {width:24px; height:25px; background-position: -62px -0px}
+.instagram-small {width:16px; height:17px; background-position: -19px -79px}
+.play {width:62px; height:62px; background-position: -0px -0px}
+.twitter {width:28px; height:23px; background-position: -62px -25px}
+.twitter-small {width:19px; height:16px; background-position: -0px -79px}

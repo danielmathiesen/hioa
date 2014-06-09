@@ -1,8 +1,8 @@
 <?php get_header(); ?>
         <div class="grey-light">
             <div class="inner-content signup-container">
-                <h1>HiOA lanserer nettmagasin</h1>
-                <p class="excerpt">Her kommer HiOAs nye nettmagasin <strong><i>viten + praksis</i></strong>. 19. september kan du oppleve HiOAs forskning i tekst, bilder, videoer og sosiale medier – samlet i et digitalt univers. Mens du venter, ta en kikk på noen av våre forskningsfilmer.</p>
+                <h1>Dette er en overskrift</h1>
+                <p class="excerpt">Dette er en kort tekst om lanseringen av det digitale magasinet og hva det skal være... Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div class="subscribe-container">
                     <div class="subscribe-container-inner">
                         <div class="subscribe-table">
@@ -30,7 +30,7 @@
                         <!-- <div class="sprite arrow"></div> -->
                         <img class="feature-image" src="<?php bloginfo('template_directory'); ?>/img/feature-image.jpg" alt="Videotittel" />
                     </div>
-                    <p class="feature-text">Forskere ved HiOA har samlet inn nesten 5000 spyttprøver fra norske og svenske testikkelkreftpasienter og fra deres mødre og fedre. Ved å analysere DNA fra disse prøvene jakter forskerne på genetiske årsaker til testikkelkreft.<br/><br/>Det er HiOAs forskergruppe Reproduktiv helse hos menn i samarbeid med Kreftregisteret og Karolinska Institutet i Sverige som står bak forskningen.<br/><br/><a id="feature-video-link" href="#"><strong>Se video her</strong><span class="sprite play-small"></span><span class="sprite play-xsmall"></span></a></p>
+                    <p class="feature-text">Forskere ved HiOA har samlet inn nesten 5000 spyttprøver fra norske og svenske testikkelkreftpasienter og fra deres mødre og fedre. Ved å analysere DNA fra disse prøvene jakter forskerne på genetiske årsaker til testikkelkreft. <br/><br/>Det er HiOAs forskergruppe Reproduktiv helse hos menn i samarbeid med Kreftregisteret og Karolinska Institutet i Sverige som står bak forskningen.<br/><br/><a id="feature-video-link" href="#"><strong>Se video her</strong><span class="sprite play-small"></span><span class="sprite play-xsmall"></span></a></p>
                 </div>
             </div>
         </div>
