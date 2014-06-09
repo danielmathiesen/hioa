@@ -12,7 +12,7 @@
                                 <p class="subscribe-success-message-ie9">Takk! Din e-post er nå registrert</p>
                                 <div class="subscribe-input-cell">
                                     <p class="subscribe-success-message">Takk! Din e-post er nå registrert</p>
-                                    <input id="email" type="text" placeholder="Skriv inn din epost" name="email">
+                                    <input id="email" type="email" placeholder="Skriv inn din epost" name="email">
                                 </div>
                                 <div class="subscribe-button-cell">
                                     <button id="subscribe-button" class="button">SEND</button>
