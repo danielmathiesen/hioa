@@ -463,10 +463,13 @@ p {
       max-width: 475px; }
 
 .hioa-logo-table-cell {
-  width: 16%; }
+  width: 14%; }
 
 .site-logo-table-cell {
-  max-width: 475px; }
+  width: 84%; }
+
+.logo-container-spacing-cell {
+  width: 2%; }
 
 /* Header */
 .header {
@@ -481,9 +484,6 @@ p {
   width: 475px;
   height: 90px;
   border-spacing: 0 20px; }
-
-.logo-container-spacing-cell {
-  width: 20px; }
 
 .hioa-logo, .site-logo {
   padding: 50px 0; }
@@ -821,7 +821,16 @@ input:focus {
     display: table; } }
 @media only screen and (max-width: 850px) {
   .feature-text {
-    padding: 40px 50px; } }
+    padding: 40px 50px; }
+
+  .hioa-logo-table-cell {
+    width: 15%; }
+
+  .site-logo-table-cell {
+    width: 81%; }
+
+  .logo-container-spacing-cell {
+    width: 4%; } }
 @media only screen and (max-width: 750px) {
   .video-grid div {
     width: 100%; }
