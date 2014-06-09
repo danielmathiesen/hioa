@@ -7,16 +7,18 @@
                 <p class="excerpt">Her kommer HiOAs nye nettmagasin <strong><i>viten + praksis</i></strong>. 19. september kan du oppleve HiOAs forskning i tekst, bilder, videoer og sosiale medier – samlet i et digitalt univers. Mens du venter, ta en kikk på noen av våre forskningsfilmer.</p>
                 <div class="subscribe-container">
                     <div class="subscribe-container-inner">
-                        <div class="subscribe-table">
-                            <p class="subscribe-success-message-ie9">Takk! Din e-post er nå registrert</p>
-                            <div class="subscribe-input-cell">
-                                <p class="subscribe-success-message">Takk! Din e-post er nå registrert</p>
-                                <input id="email" type="text" placeholder="Skriv inn din epost" name="email">
+                        <form id="email-form">
+                            <div class="subscribe-table">
+                                <p class="subscribe-success-message-ie9">Takk! Din e-post er nå registrert</p>
+                                <div class="subscribe-input-cell">
+                                    <p class="subscribe-success-message">Takk! Din e-post er nå registrert</p>
+                                    <input id="email" type="text" placeholder="Skriv inn din epost" name="email">
+                                </div>
+                                <div class="subscribe-button-cell">
+                                    <button id="subscribe-button" class="button">SEND</button>
+                                </div>
                             </div>
-                            <div class="subscribe-button-cell">
-                                <button id="subscribe-button" class="button">SEND</button>
-                            </div>
-                        </div>
+                        </form>
                         <p class="subscribe-caption">(Få varsel på e-post når nettmagsinet lanseres)</p>
                     </div>
                     <div class="social-container-table">

@@ -142,6 +142,12 @@
 
 
 
+$( document ).ready(function() {
+	    $("#email-form").submit(function(e){
+	        e.preventDefault();
+	    });
+});
+
 
 
 
