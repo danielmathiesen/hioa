@@ -296,7 +296,7 @@ p{
 		}
 	}
 
-	.subscribe-success-message{
+	.subscribe-success-message, .subscribe-success-message-ie9{
 		position:absolute;
 		width:100%;
 		background-color:#b3d69c;
@@ -661,7 +661,7 @@ h1{
 			padding-bottom:13px;
 		}
 
-		.subscribe-success-message{
+		.subscribe-success-message, .subscribe-success-message-ie9{
 			padding:9px 0 8px 20px;
 		}
 	}

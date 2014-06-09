@@ -598,7 +598,7 @@ p {
       color: #3f3f3f; }
     .subscribe-container-inner .subscribe-table .ajax-spinner {
       position: relative; }
-  .subscribe-container-inner .subscribe-success-message {
+  .subscribe-container-inner .subscribe-success-message, .subscribe-container-inner .subscribe-success-message-ie9 {
     position: absolute;
     width: 100%;
     background-color: #b3d69c;
@@ -852,7 +852,7 @@ h1 {
     font-size: 0.75em;
     padding-top: 13px;
     padding-bottom: 13px; }
-  .subscribe-container-inner .subscribe-success-message {
+  .subscribe-container-inner .subscribe-success-message, .subscribe-container-inner .subscribe-success-message-ie9 {
     padding: 9px 0 8px 20px; }
 
   .social-container-table .instagram-small, .social-container-table .twitter-small {

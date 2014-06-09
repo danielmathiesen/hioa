@@ -199,7 +199,7 @@
 				  if( $("html").hasClass("lt-ie10") ){
                   	$('.subscribe-input-cell').hide();
                   	$('.subscribe-button-cell').hide();
-                  	$('.subscribe-success-message').show();
+                  	$('.subscribe-success-message-ie9').show();
 				  }
 				  else{
 					  $('.subscribe-success-message').fadeIn(250);
@@ -211,6 +211,7 @@
                   	$('.subscribe-input-cell').show();
                   	$('.subscribe-button-cell').show();
                   	$('.subscribe-success-message').hide();
+                  	$('.subscribe-success-message-ie9').hide();
 				  }
 				  else{
 					  $('.subscribe-success-message').fadeOut(250);
