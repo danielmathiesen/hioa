@@ -214,7 +214,7 @@
 			  url: '/wp-admin/admin-ajax.php',
 			  data: {
 			  action: 'RegisterSubscriber',
-			  email: 'daniel.mathiesen@gmail.com'
+			  email: $('#email');
 			  },
 
 			  success: function(data, textStatus, XMLHttpRequest){
