@@ -259,6 +259,14 @@ p{
 		box-sizing: border-box;         /* Opera/IE 8+ */
 	}
 
+	.input-error{
+		border: 3px solid #d05757;
+	}
+
+	.error-message{
+		color:#d05757;
+	}
+
 	button{
 		padding:18px 20px 18px 20px;
 	}

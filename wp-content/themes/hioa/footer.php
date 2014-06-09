@@ -146,6 +146,13 @@
 				    $("#email-form").submit(function(e){
 				        e.preventDefault();
 				    });
+
+				    $("#email").focus(function() {
+		  				$('#email').removeClass('input-error');
+					  	$('.subscribe-caption').html('(Få varsel på e-post når nettmagsinet lanseres)');
+					  	$('.subscribe-caption').removeClass('error-message');
+					});
+
 			});
 
 
@@ -159,9 +166,23 @@
 			// alert("SEND");
 
 			$('#email').blur();
+
+			var email = $('#email').val();
+
+			// Simple email validation
+			var is_valid_email = /^.+@.+\..+$/.test(email);
+
+		  if(!is_valid_email){
+		  	$('#email').addClass('input-error');
+		  	$('.subscribe-caption').html('Oops! Har du skrevet riktig e-post adresse?');
+		  	$('.subscribe-caption').addClass('error-message');
+		  	return;
+		  }
+			
+
 			$('#email').focus();
 			$('#email').blur();
-			
+
 		var opts = {
 		  lines: 13, // The number of lines to draw
 		  length: 6, // The length of each line
@@ -186,7 +207,6 @@
 
 		var target = document.getElementById('subscribe-button');
 		var spinner = new Spinner(opts).spin(target);
-
 
 			jQuery.ajax({
 			  type: 'POST',

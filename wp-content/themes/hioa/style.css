@@ -575,6 +575,10 @@ p {
     /* Firefox, other Gecko */
     box-sizing: border-box;
     /* Opera/IE 8+ */ }
+  .subscribe-container-inner .input-error {
+    border: 3px solid #d05757; }
+  .subscribe-container-inner .error-message {
+    color: #d05757; }
   .subscribe-container-inner button {
     padding: 18px 20px 18px 20px; }
   .subscribe-container-inner .subscribe-table {
