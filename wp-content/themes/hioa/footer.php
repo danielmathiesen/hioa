@@ -192,7 +192,6 @@
 				  // jQuery("#test-div1").html('');
 				  // jQuery("#test-div1").append(data);
 				  // alert(data);
-				  $('.subscribe-success-message').fadeIn(100);
 				  
 				  $('#subscribe-button').removeClass('ajax-spinner');
 				  spinner.stop();
@@ -200,6 +199,10 @@
 				  if( $("html").hasClass("lt-ie10") ){
                   	$('.subscribe-input-cell').hide();
                   	$('.subscribe-button-cell').hide();
+                  	$('.subscribe-success-message').show();
+				  }
+				  else{
+					  $('.subscribe-success-message').fadeIn(100);
 				  }
 
 				  /*
