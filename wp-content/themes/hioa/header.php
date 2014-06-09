@@ -43,7 +43,7 @@
         <!-- ****** faviconit.com favicons ****** -->
 
         <!-- typography.com -->
-        <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6204492/669284/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6204492/669084/css/fonts.css" />
 		
         <?php wp_head(); ?>
     </head>
