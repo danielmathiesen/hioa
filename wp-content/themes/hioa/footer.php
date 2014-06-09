@@ -202,8 +202,24 @@
                   	$('.subscribe-success-message').show();
 				  }
 				  else{
-					  $('.subscribe-success-message').fadeIn(100);
+					  $('.subscribe-success-message').fadeIn(250);
 				  }
+
+				  setTimeout(function(){
+
+				  if( $("html").hasClass("lt-ie10") ){
+                  	$('.subscribe-input-cell').show();
+                  	$('.subscribe-button-cell').show();
+                  	$('.subscribe-success-message').hide();
+				  }
+				  else{
+					  $('.subscribe-success-message').fadeOut(250);
+				  }
+
+				  $('#subscribe-button').removeClass('no-text');
+				  $('#email').val('');
+
+				  },2000);
 
 				  /*
 					$('#overlay-content-container').fadeOut(200, function(){

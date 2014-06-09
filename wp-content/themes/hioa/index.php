@@ -8,9 +8,9 @@
                 <div class="subscribe-container">
                     <div class="subscribe-container-inner">
                         <div class="subscribe-table">
-                            <p class="subscribe-success-message">Takk! Din e-post er nå registrert</p>
                             <div class="subscribe-input-cell">
-                                <input type="text" placeholder="Skriv inn din epost" name="email">
+                                <p class="subscribe-success-message">Takk! Din e-post er nå registrert</p>
+                                <input id="email" type="text" placeholder="Skriv inn din epost" name="email">
                             </div>
                             <div class="subscribe-button-cell">
                                 <button id="subscribe-button" class="button">SEND</button>
