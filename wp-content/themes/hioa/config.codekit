@@ -38,6 +38,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/spritesheet.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/spritesheet.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/spritesheet@2x kopi.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -46,6 +55,26 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/css\/spritesheet@2x.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/spritesheet@2x.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63306,
+		"inputAbbreviatedPath": "\/favicon.png",
+		"outputAbbreviatedPath": "\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/footer.php": {
 		"fileType": 8192,
@@ -73,6 +102,182 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/img\/favicon\/favicon-114.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2893,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-114.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-114.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2963,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-120.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-144.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3217,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-144.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-144.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-150.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3385,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-150.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-150.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-152.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3280,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-152.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-152.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 765,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-16.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-160.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3518,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-160.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-160.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-196.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4051,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-196.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-196.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-310.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7675,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-310.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-310.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1329,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-32.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-32.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-57.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2069,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-57.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-57.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-64.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2227,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-64.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-64.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-70.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2335,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-70.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-70.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-72.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2342,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-72.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-72.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-76.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2407,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-76.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-76.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicon\/favicon-96.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2723,
+		"inputAbbreviatedPath": "\/img\/favicon\/favicon-96.png",
+		"outputAbbreviatedPath": "\/img\/favicon\/favicon-96.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/feature-image.jpg": {
 		"fileType": 16384,
@@ -250,6 +455,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/spritesheet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5588,
+		"inputAbbreviatedPath": "\/img\/spritesheet.png",
+		"outputAbbreviatedPath": "\/img\/spritesheet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/spritesheet@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11690,
+		"inputAbbreviatedPath": "\/img\/spritesheet@2x.png",
+		"outputAbbreviatedPath": "\/img\/spritesheet@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/video-preview1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -293,6 +520,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/index kopi.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index kopi.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.php": {
 		"fileType": 8192,
@@ -515,7 +751,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "hioa",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_brown"
 	},
 "projectSettings": {
