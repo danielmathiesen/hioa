@@ -2,7 +2,7 @@
 
 		<div class="footer">
 			<div class="footer-inner">
-				<p> Ønsker du å komme i kontakt? Send en mail til: <a href="vp@hioa.no">vp@hioa.no</a></p>
+				<p> Ønsker du å komme i kontakt? Send en mail til: <a href="mailto:vp@hioa.no">vp@hioa.no</a></p>
 			</div>
 		</div>
 
