@@ -553,6 +553,7 @@ p {
   font-size: 0.875em; }
 
 .subscribe-container-inner {
+  width: 100%;
   max-width: 382px;
   padding-right: 30px;
   display: inline-block;
@@ -577,6 +578,7 @@ p {
   .subscribe-container-inner button {
     padding: 18px 20px 18px 20px; }
   .subscribe-container-inner .subscribe-table {
+    width: 100%;
     display: table; }
     .subscribe-container-inner .subscribe-table .subscribe-input-cell {
       display: table-cell;
