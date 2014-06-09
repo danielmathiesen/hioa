@@ -393,6 +393,11 @@ h1{
 	width:180px;
 }
 
+input:focus {
+    outline: none;
+    border:0;
+}
+
 .video-link{
 	cursor: pointer; 
 	cursor: hand;

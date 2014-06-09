@@ -159,7 +159,9 @@
 			// alert("SEND");
 
 			$('#email').blur();
-
+			$('#email').focus();
+			$('#email').blur();
+			
 		var opts = {
 		  lines: 13, // The number of lines to draw
 		  length: 6, // The length of each line
@@ -184,6 +186,7 @@
 
 		var target = document.getElementById('subscribe-button');
 		var spinner = new Spinner(opts).spin(target);
+
 
 			jQuery.ajax({
 			  type: 'POST',
