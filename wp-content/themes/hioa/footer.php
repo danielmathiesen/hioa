@@ -142,11 +142,11 @@
 
 
 
-$( document ).ready(function() {
-	    $("#email-form").submit(function(e){
-	        e.preventDefault();
-	    });
-});
+			$( document ).ready(function() {
+				    $("#email-form").submit(function(e){
+				        e.preventDefault();
+				    });
+			});
 
 
 
@@ -158,7 +158,7 @@ $( document ).ready(function() {
 
 			// alert("SEND");
 
-
+			$('#email').blur();
 
 		var opts = {
 		  lines: 13, // The number of lines to draw
