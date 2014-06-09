@@ -580,7 +580,11 @@ p {
   .subscribe-container-inner .subscribe-table {
     position: relative;
     width: 100%;
-    display: table; }
+    display: table;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    overflow: hidden; }
     .subscribe-container-inner .subscribe-table .subscribe-input-cell {
       display: table-cell;
       width: 100%;
@@ -588,8 +592,6 @@ p {
     .subscribe-container-inner .subscribe-table .subscribe-button-cell {
       display: table-cell;
       width: 46px; }
-    .subscribe-container-inner .subscribe-table button {
-      position: static; }
     .subscribe-container-inner .subscribe-table .no-text {
       color: #000000; }
     .subscribe-container-inner .subscribe-table .no-text:hover {
@@ -603,6 +605,7 @@ p {
     font-style: italic;
     font-weight: 400;
     margin: 0;
+    border: 0;
     padding: 14px 0 14px 20px;
     font-size: 0.875em;
     -webkit-box-sizing: border-box;

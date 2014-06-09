@@ -23,7 +23,7 @@
                     </div> <!-- social-container -->
                 </div>
             </div>
-        </div>       
+        </div>
         <div class="grey">
             <div class="inner-content feature-content">
                 <div class="white">

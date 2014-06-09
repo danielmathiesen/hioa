@@ -267,6 +267,10 @@ p{
 		position:relative;
 		width:100%;
 		display:table;
+		padding:0px;
+		border:0px;
+		margin:0px;
+		overflow:hidden;
 
 		.subscribe-input-cell{
 			display:table-cell;
@@ -277,10 +281,6 @@ p{
 		.subscribe-button-cell{
 			display:table-cell;
 			width:46px;
-		}
-
-		button{
-			position:static;
 		}
 
 		.no-text{
@@ -303,6 +303,7 @@ p{
 		font-style:italic;
 		font-weight:400;
 		margin:0;
+		border:0;
 		padding:14px 0 14px 20px;
 		font-size:0.875em; // 14px
 		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
