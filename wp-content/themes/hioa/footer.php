@@ -219,6 +219,7 @@
 
 				  $('#subscribe-button').removeClass('no-text');
 				  $('#email').val('');
+				  $('.placeholdersjs').val('Skriv inn din epost');
 
 				  },2000);
 
