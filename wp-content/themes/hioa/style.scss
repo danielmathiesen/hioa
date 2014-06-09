@@ -19,6 +19,8 @@ html, body, input, button{
 	font-family: 'Sentinel SSm A', 'Sentinel SSm B'; 
 	font-weight: 300; 
 	font-style: normal;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 html, body{

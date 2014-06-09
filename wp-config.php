@@ -26,7 +26,7 @@ if ( stristr( $_SERVER['SERVER_NAME'], 'gesture.no' ) )
 	define('DB_USER', 'gestuzil');
 
 	/** MySQL database password */
-	define('DB_PASSWORD', '7e2oq906V5');
+	define('DB_PASSWORD', '{=GtFhh^SJ1s');
 
 	/** MySQL hostname */
 	define('DB_HOST', 'localhost');
@@ -81,7 +81,7 @@ define('NONCE_SALT',       'QU,qT:uTTy% _$?<c.((XLqqxBqp9|=z:<`]dVBK|]c-yq-4^#0-
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'hioa_';
 
 /**
  * WordPress Localized Language, defaults to English.
