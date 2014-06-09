@@ -176,13 +176,7 @@
 		  	$('#email').addClass('input-error');
 		  	$('.subscribe-caption').html('Oops! Har du skrevet riktig e-post adresse?');
 		  	$('.subscribe-caption').addClass('error-message');
-
-		  if( $("html").hasClass("lt-ie10") ){
 			$('.placeholdersjs').val('Skriv inn din epost');
-		    $('#email').focus();
-			$('#email').blur();
-		  }
-
 		  	return;
 		  }
 			
@@ -248,7 +242,6 @@
                   	$('.subscribe-button-cell').show();
                   	$('.subscribe-success-message').hide();
                   	$('.subscribe-success-message-ie9').hide();
-				  	$('.placeholdersjs').val('Skriv inn din epost');
 
 				    $('#email').focus();
 					$('#email').blur();
@@ -259,6 +252,7 @@
 
 				  $('#subscribe-button').removeClass('no-text');
 				  $('#email').val('');
+				  $('.placeholdersjs').val('Skriv inn din epost');
 
 				  },3000);
 
