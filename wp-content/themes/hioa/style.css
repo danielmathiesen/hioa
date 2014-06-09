@@ -664,7 +664,10 @@ h1 {
 
 .arrow {
   position: absolute;
-  bottom: 0; }
+  bottom: 0;
+  z-index: 100;
+  margin-left: -19px;
+  left: 50%; }
 
 .feature-text {
   padding: 45px 115px 45px 115px;

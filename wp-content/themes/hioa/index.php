@@ -33,7 +33,7 @@
             <div class="inner-content feature-content">
                 <div class="white">
                     <div id="video-id-0" class="feature-image-container video-link">
-                        <!-- <div class="sprite arrow"></div> -->
+                        <div class="sprite arrow"></div>
                         <img class="feature-image" src="<?php bloginfo('template_directory'); ?>/img/feature-image.jpg" alt="Videotittel" />
                         <span class="play-icon large"></span>
                     </div>
