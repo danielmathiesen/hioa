@@ -15,7 +15,7 @@ header('X-UA-Compatible: IE=edge,chrome=1');
     <head>
         <meta charset="utf-8">
         <!-- Replaced with header -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
         <title>Viten + praksis</title>
         <meta name="description" content="Viten + praksis er et forskningsmagasin fra Høgskolen i Oslo og Akershus">
         <meta name="viewport" content="width=device-width, initial-scale=1">
