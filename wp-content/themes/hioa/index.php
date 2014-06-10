@@ -43,7 +43,7 @@
                         <img class="feature-image" src="<?php bloginfo('template_directory'); ?>/img/feature-image.jpg" alt="Videotittel" />
                         <span class="play-icon large"></span>
                     </div>
-                    <div class="feature-text"><?php echo $videos[0]['content']; ?><a class="feature-video-link" href="#"><p><strong>Se video her</strong><span class="sprite play-small"></span><span class="sprite play-xsmall"></span></a></p></div>
+                    <div class="feature-text"><?php echo $videos[0]['content']; ?><a class="feature-video-link" href="#"><p><strong>Se video her</strong><span class="sprite play-small"></span><span class="sprite play-xsmall"></span></p></a></div>
                 </div>
             </div>
         </div>
