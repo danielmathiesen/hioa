@@ -1,6 +1,6 @@
 <?php
 
-if (stristr($_SERVER['SERVER_NAME'], 'vitenpraksis.no')){
+if (stristr($_SERVER['HTTP_HOST'], 'vitenpraksis.no')){
     header('Location: http://vitenogpraksis.no');
 }
 
