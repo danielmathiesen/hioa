@@ -1,3 +1,11 @@
+<?php
+
+if (stristr($_SERVER['SERVER_NAME'], 'vitenpraksis.no')){
+    header('Location: http://vitenogpraksis.no');
+}
+
+?>
+
 <?php header('X-UA-Compatible: IE=edge,chrome=1'); ?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7 lt-ie10"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8 lt-ie10"> <![endif]-->
