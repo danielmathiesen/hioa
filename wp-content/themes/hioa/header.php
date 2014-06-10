@@ -1,12 +1,12 @@
-<?php
+<?php 
 
 if (stristr($_SERVER['HTTP_HOST'], 'vitenpraksis.no')){
     header('Location: http://vitenogpraksis.no');
 }
 
-?>
+header('X-UA-Compatible: IE=edge,chrome=1'); 
 
-<?php header('X-UA-Compatible: IE=edge,chrome=1'); ?><!DOCTYPE html>
+?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7 lt-ie10"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8 lt-ie10"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9 lt-ie10"> <![endif]-->
@@ -22,10 +22,8 @@ if (stristr($_SERVER['HTTP_HOST'], 'vitenpraksis.no')){
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/normalize.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/spritesheet.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
-        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/overlay.css">
         
         <!-- ****** faviconit.com favicons ****** -->
         <!--

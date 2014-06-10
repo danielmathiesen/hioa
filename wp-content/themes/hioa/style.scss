@@ -6,6 +6,9 @@ Author URL: redink.no
 Tags: REDINK
 */
 
+@import "scss/magnific-popup";
+@import "scss/normalize";
+
 @import url(css/spritesheet@2x.css) screen and (-webkit-min-device-pixel-ratio: 2);
 
 @import "scss/magnific-popup";
@@ -835,3 +838,5 @@ input:focus {
 		margin-top:-1px;
 	}
 }
+
+@import "scss/overlay";
