@@ -25,28 +25,19 @@ header('X-UA-Compatible: IE=edge,chrome=1');
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/spritesheet.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
         
-        <!-- ****** faviconit.com favicons ****** -->
-        <!--
-        <link rel="shortcut icon" href="/wp-content/themes/hioa/img/favicon/favicon.ico">
-        <link rel="icon" sizes="16x16 32x32 64x64" href="/wp-content/themes/hioa/img/favicon/favicon.ico">
-        <link rel="icon" type="image/png" sizes="196x196" href="/wp-content/themes/hioa/img/favicon/favicon-196.png">
-        <link rel="icon" type="image/png" sizes="160x160" href="/wp-content/themes/hioa/img/favicon/favicon-160.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/wp-content/themes/hioa/img/favicon/favicon-96.png">
-        <link rel="icon" type="image/png" sizes="64x64" href="/wp-content/themes/hioa/img/favicon/favicon-64.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/hioa/img/favicon/favicon-32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/hioa/img/favicon/favicon-16.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/wp-content/themes/hioa/img/favicon/favicon-152.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/wp-content/themes/hioa/img/favicon/favicon-144.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/wp-content/themes/hioa/img/favicon/favicon-120.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/wp-content/themes/hioa/img/favicon/favicon-114.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/wp-content/themes/hioa/img/favicon/favicon-76.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/wp-content/themes/hioa/img/favicon/favicon-72.png">
-        <link rel="apple-touch-icon" href="/wp-content/themes/hioa/img/favicon/favicon-57.png">
-        <meta name="msapplication-TileColor" content="#FFFFFF">
-        <meta name="msapplication-TileImage" content="/wp-content/themes/hioa/img/favicon/favicon-144.png">
-        <meta name="msapplication-config" content="/browserconfig.xml">
-        -->
-        <!-- ****** faviconit.com favicons ****** -->
+        <link rel="apple-touch-icon" sizes="57x57" href="<?php bloginfo('template_directory'); ?>/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('template_directory'); ?>/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('template_directory'); ?>/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="<?php bloginfo('template_directory'); ?>/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="<?php bloginfo('template_directory'); ?>/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="<?php bloginfo('template_directory'); ?>/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="<?php bloginfo('template_directory'); ?>/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="<?php bloginfo('template_directory'); ?>/favicons/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicons/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicons/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicons/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="<?php bloginfo('template_directory'); ?>/favicons/favicon-32x32.png" sizes="32x32">
 
         <!-- typography.com -->
         <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6204492/669084/css/fonts.css" />
