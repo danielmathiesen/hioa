@@ -27,9 +27,9 @@
                         <p class="subscribe-caption">(Få varsel på e-post når nettmagsinet lanseres)</p>
                     </div>
                     <div class="social-container-table">
-                            <a class="social-container-cell instagram-cell button" href="http://instagram.com/hioa" target="_blank">Følg oss på Instagram<span class="sprite instagram"></span><span class="sprite instagram-small"></span></a>
+                            <a class="social-container-cell instagram-cell button" href="http://instagram.com/vitenogpraksis" target="_blank">Følg oss på Instagram<span class="sprite instagram"></span><span class="sprite instagram-small"></span></a>
                             <div class="social-container-spacing-cell"></div>
-                            <a class="social-container-cell twitter-cell button" href="https://twitter.com/HiOA_info" target="_blank">Følg oss på Twitter<span class="sprite twitter"></span><span class="sprite twitter-small"></span></a>
+                            <a class="social-container-cell twitter-cell button" href="https://twitter.com/HiOA_forskning" target="_blank">Følg oss på Twitter<span class="sprite twitter"></span><span class="sprite twitter-small"></span></a>
                     </div> <!-- social-container -->
                 </div>
             </div>
